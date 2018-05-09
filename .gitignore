@@ -62,4 +62,5 @@ fastlane/test_output
 
 iOSInjectionProject/
 
-Example.xcodeproj/project.xcworkspace/xcuserdata/hjbong.xcuserdatad/UserInterfaceState.xcuserstate
+*.xcuserstate
+.DS_Store
