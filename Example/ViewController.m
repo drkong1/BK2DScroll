@@ -63,10 +63,8 @@
     [self titleColorForAlpha:0];
 }
 
-
-
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
     
     NSInteger currentPage = _bk2d.currentPage;
     UIScrollView *scorllView = _contents[currentPage];
